@@ -68,9 +68,9 @@ cat > $INSTALL_DIR/policy.xml <<EOF
   <policy domain="resource" name="temporary-path" value="/tmp"/>
   <policy domain="resource" name="memory" value="128MiB"/>
   <policy domain="resource" name="map" value="512MiB"/>
-  <policy domain="resource" name="width" value="3KP"/>
-  <policy domain="resource" name="height" value="3KP"/>
-  <policy domain="resource" name="area" value="9KP"/>
+  <policy domain="resource" name="width" value="10KP"/>
+  <policy domain="resource" name="height" value="10KP"/>
+  <policy domain="resource" name="area" value="10KP"/>
   <policy domain="resource" name="disk" value="512MiB"/>
   <policy domain="resource" name="file" value="768"/>
   <policy domain="resource" name="thread" value="2"/>
